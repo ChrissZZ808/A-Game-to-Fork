@@ -1,7 +1,6 @@
 # A Game to be Improved
 **[ES] - English below**
-
-Este repositorio es un proyecto de JavaFX para practicar la creación y modificación de un repositorio propio a partir de una base.
+hey whats up man.
 
 ## Objetivos
 

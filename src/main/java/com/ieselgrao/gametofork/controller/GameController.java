@@ -27,9 +27,9 @@ public class GameController {
     private Random random = new Random();
 
     // Parámetros de los círculos
-    private final double MIN_RADIUS = 10;
-    private final double MAX_RADIUS = 30;
-    private final double FALL_SPEED = 1;
+    private final double MIN_RADIUS = 7;
+    private final double MAX_RADIUS = 40;
+    private final double FALL_SPEED = 1.5;
     private final double LOST_LINE_Y = 550; // Línea cerca del pie de la ventana (600px)
 
     @FXML
@@ -42,7 +42,7 @@ public class GameController {
 
         // Dibuja la línea roja de pérdida de vida
         Line lossLine = new Line(0, LOST_LINE_Y, gamePane.getWidth(), LOST_LINE_Y);
-        lossLine.setStroke(Color.RED);
+        lossLine.setStroke(java.awt.Color.BLUE);
         lossLine.setStrokeWidth(2);
         gamePane.getChildren().add(lossLine);
 
