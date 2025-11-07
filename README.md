@@ -24,3 +24,5 @@
 ![Gitkraken push merge..](image-1.png)
 ![readme](image-2.png)
 ![ramas branch](image-3.png)
+![push del gamecontrol
+](image-4.png)
